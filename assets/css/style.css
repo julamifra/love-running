@@ -239,3 +239,22 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 } 
+
+
+/* gallery */
+
+#photos {
+    /* so the photo section and its contents display below the header */
+    clear: both;
+
+    /* in order to remove any horizontal gaps between the images */
+    line-height: 0;
+
+    column-count: 4;
+    column-gap: 0;
+
+}
+
+#photos > img {
+    width: 100%;
+}
