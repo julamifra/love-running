@@ -288,11 +288,21 @@ footer {
         padding: 0;
     }
 
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
 
     /* For medium screen sizes from 950 px wide and down */
+}
+
+@media screen and (max-width: 1200px) {
     #menu {
         clear: left;
         float: left;
@@ -325,6 +335,4 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
-
-
 }
